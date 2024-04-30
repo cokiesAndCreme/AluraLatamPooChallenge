@@ -1,9 +1,6 @@
 ### hi mi name is cokies and im a beginner in java  👋
 
-<!--
-**cokiesAndCreme/cokiesAndCreme** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
  🔭 I’m currently working on Someone here give me a job please
  🌱 I’m currently learning java and Reactjs 
  👯 I’m looking to collaborate on Minecraft Proyects 
@@ -12,4 +9,4 @@ Here are some ideas to get you started:
  📫 How to reach me: here
  😄 Pronouns: cokies
  ⚡ Fun fact: Im mexican 
--->
+
