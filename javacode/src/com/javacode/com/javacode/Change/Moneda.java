@@ -2,7 +2,6 @@ package com.javacode.com.javacode.Change;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.Writer;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -45,14 +44,14 @@ public class Moneda {
         
     }
 
-    public void convertiAjsn(ArrayList<Moneda> a) throws IOException {
+    public void convertiAjsn(ArrayList<Moneda> alias) throws IOException {
         Gson gson = new GsonBuilder()
         .setPrettyPrinting()
         .create();
 
         FileWriter pajson = new FileWriter("nombre.json");
         try {
-            pajson.write(gson.toJson(a));
+            pajson.write(gson.toJson(alias));
             pajson.close();
             
         } catch (Exception e) {
